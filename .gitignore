@@ -1,23 +1,43 @@
-.venv/
-venv/
-env/
-
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables
 .env
 .env.*
 !.env.example
 
-instance/
+# SQLite databases
 *.db
 *.sqlite
 *.sqlite3
 
+# Flask instance data
+instance/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# IDE files
 .vscode/
 .idea/
 
+# OS files
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
